@@ -112,9 +112,15 @@ p{
     top: 50%;
     display: flex;
     justify-self: center;
-    background: url(/banner.png);
-    background-size: cover;
-    background-position: top;
+    background: #000;
+    overflow: hidden;
+}
+.collision{
+    height: 3rem;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    bottom: 15%;
 }
 .ost{
     font-family: 'Doto';
